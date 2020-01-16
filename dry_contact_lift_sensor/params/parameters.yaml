@@ -1,0 +1,7 @@
+dry_contact_lift_node:
+  ros__parameters:
+    lift_id_param: "LF001"
+    lift_car_timeout_param: 30
+    door_timeout_param: 10
+    available_floors_param: ["L1", "L2", "L3", "L4"]
+    available_modes_param: ["M0", "M1", "M2", "M3"]

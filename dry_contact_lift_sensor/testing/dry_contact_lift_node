@@ -1,0 +1,37 @@
+ros2 run dry_contact_lift_sensor dry_contact_lift_node __params:=/home/pi/rmf/build/ros2/src/dry_contact_lift_sensor/params/parameters.yaml
+
+
+[INFO] [dry_contact_lift_node]: setup wiringPi
+[INFO] [dry_contact_lift_node]: initialising parameters
+[INFO] [dry_contact_lift_node]: Received new request
+[INFO] [dry_contact_lift_node]: Local Lift ID: 'AAA'
+[INFO] [dry_contact_lift_node]: For lift: 'AAA'
+[INFO] [dry_contact_lift_node]: Publishing AGV_MODE_STATUS and AVAILABLE_FLOORS
+[INFO] [dry_contact_lift_node]: Received new request
+[INFO] [dry_contact_lift_node]: Local Lift ID: 'AAA'
+[INFO] [dry_contact_lift_node]: For lift: 'AAA'
+[INFO] [dry_contact_lift_node]: Received lift call to 4th floor
+[INFO] [dry_contact_lift_node]: Calling lift '4' floor
+digitalRead(arrival_floor_pin) = 0
+[INFO] [dry_contact_lift_node]: Called lift '4' floor
+[INFO] [dry_contact_lift_node]: Publishing current_floor and destination floor
+[INFO] [dry_contact_lift_node]: Waiting to receive door status
+[INFO] [dry_contact_lift_node]: Received Door opened signal, hence sending door open command to hold the door in open position
+[INFO] [dry_contact_lift_node]: Door is held in open position, waiting for AGV to move inside lift
+[INFO] [dry_contact_lift_node]: Received new request
+[INFO] [dry_contact_lift_node]: Local Lift ID: 'AAA'
+[INFO] [dry_contact_lift_node]: For lift: 'AAA'
+[INFO] [dry_contact_lift_node]: AGV is inside lift now
+[INFO] [dry_contact_lift_node]: Received lift call to 1st floor
+[INFO] [dry_contact_lift_node]: Calling lift '1' floor
+digitalRead(arrival_floor_pin) = 0
+[INFO] [dry_contact_lift_node]: Called lift '1' floor
+[INFO] [dry_contact_lift_node]: Waiting to receive door status
+[INFO] [dry_contact_lift_node]: Received new request
+[INFO] [dry_contact_lift_node]: Local Lift ID: 'AAA'
+[INFO] [dry_contact_lift_node]: For lift: 'AAA'
+[INFO] [dry_contact_lift_node]: Received AGV Release mode
+digitalRead(AGV_MODE_STATUS) = 1
+[INFO] [dry_contact_lift_node]: setup wiringPi
+[INFO] [dry_contact_lift_node]: Finished the activity, waiting for the next activity
+

@@ -1,0 +1,29 @@
+ros2 topic echo /dry_contact_lift_sensor/lift_request_topic
+
+lift_name: AAA
+exclusive: true
+destination_floor: -1
+current_floor: 0
+door_state: 0
+agv_inside_lift: false
+
+lift_name: AAA
+exclusive: true
+destination_floor: 1
+current_floor: 4
+door_state: 2
+agv_inside_lift: false
+
+lift_name: AAA
+exclusive: true
+destination_floor: 1
+current_floor: 4
+door_state: 2
+agv_inside_lift: true
+
+lift_name: AAA
+exclusive: false
+destination_floor: 1
+current_floor: 4
+door_state: 2
+agv_inside_lift: false

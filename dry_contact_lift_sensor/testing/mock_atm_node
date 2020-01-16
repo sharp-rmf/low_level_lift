@@ -1,0 +1,31 @@
+ros2 run dry_contact_lift_sensor mock_atm_node
+
+
+[INFO] [mock_atm_node]: Starting the request. Checking if any alarm event is raised
+[INFO] [mock_atm_node]: In active operation
+[INFO] [mock_atm_node]: Made the request
+[INFO] [mock_atm_node]: Received new lift_state
+[INFO] [mock_atm_node]: lift_state->current_floor : '0'
+[INFO] [mock_atm_node]: msg_lift_request->destination_floor : '0'
+[INFO] [mock_atm_node]: in AGV_MODE and outside the lift
+Enter the current floor of the AGV
+4
+Enter the destination floor of the AGV
+1
+Requesting to hold the door in open state
+[INFO] [mock_atm_node]: Received new lift_state
+[INFO] [mock_atm_node]: lift_state->current_floor : '4'
+[INFO] [mock_atm_node]: msg_lift_request->destination_floor : '1'
+[INFO] [mock_atm_node]: in AGV_MODE and outside the lift
+[INFO] [mock_atm_node]: Received new lift_state
+[INFO] [mock_atm_node]: lift_state->current_floor : '4'
+[INFO] [mock_atm_node]: msg_lift_request->destination_floor : '1'
+[INFO] [mock_atm_node]: in AGV_MODE and outside the lift
+[INFO] [mock_atm_node]: AGV is moving inside the lift
+[INFO] [mock_atm_node]: AGV moved inside the lift
+[INFO] [mock_atm_node]: Received new lift_state
+[INFO] [mock_atm_node]: lift_state->current_floor : '1'
+[INFO] [mock_atm_node]: msg_lift_request->destination_floor : '1'
+[INFO] [mock_atm_node]: Lift is in destination floor
+[INFO] [mock_atm_node]: AGV is moving outside the lift
+[INFO] [mock_atm_node]: AGV moved outside the lift

@@ -1,0 +1,41 @@
+ros2 topic echo /dry_contact_lift_sensor/lift_state_topic
+
+lift_name: AAA
+available_floors: [1, 2, 3, 4]
+current_floor: 0
+destination_floor: 0
+door_state: 0
+lift_state: 0
+exclusive: true
+
+lift_name: AAA
+available_floors: [1, 2, 3, 4]
+current_floor: 4
+destination_floor: 1
+door_state: 0
+lift_state: 0
+exclusive: true
+
+lift_name: AAA
+available_floors: [1, 2, 3, 4]
+current_floor: 4
+destination_floor: 1
+door_state: 2
+lift_state: 0
+exclusive: true
+
+lift_name: AAA
+available_floors: [1, 2, 3, 4]
+current_floor: 1
+destination_floor: 1
+door_state: 2
+lift_state: 0
+exclusive: true
+
+lift_name: AAA
+available_floors: [1, 2, 3, 4]
+current_floor: 1
+destination_floor: 1
+door_state: 2
+lift_state: 0
+exclusive: false
